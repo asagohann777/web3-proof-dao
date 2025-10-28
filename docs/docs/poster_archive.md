@@ -1,22 +1,29 @@
 # Poster Archive Folder
 
-このフォルダには、Web3 Proof DAOに関連して制作されたポスター・資料・画像などの  
-プロトタイプ素材を時系列で保存・管理します。
+このフォルダでは、Web3 Proof DAOに関連して制作されたポスター・資料・画像などの
+プロトタイプ資料を時系列で保存・管理します。
 
 ---
 
 ## 登録方針
-- 各ポスターの下部に日付・版数（Ver.1, Ver.2...）を必ず記載  
-- 公開済み／非公開の別をコメントで明記  
-- 主要テーマ：  
-  1. 証明の民主化（Proof of Democracy）  
-  2. Web3 Proof System 概念図・構造図  
-  3. DAO 憲章（Web3 Proof DAO Charter）  
-  4. 各種アプリ連携ポスター（例：ブロックチェーン簡易登録アプリ）
+
+1. 各ポスターの下部に日付・版数（Ver.1, Ver.2...）を必ず記載  
+2. 登録済み資料のコメントは明確に  
+3. 更新履歴は本ファイル（poster_archive.md）に記録する  
 
 ---
 
-## 管理メモ
-- 画像ファイルは `/public` フォルダ内に配置  
-- 関連コメント・制作意図・改訂履歴はこの `.md` に記録  
-- Vrew用ナレーション台本や構成メモもこのフォルダに保存可能
+## 関連資料
+
+- Web3 Proof System（Proof of Democracy）
+- Web3 Proof DAO 憲章（Web3 Proof DAO Charter）
+- 開発経緯：/docs/chapter6_dev_history.md  
+- UI/UX試作資料：/public/  
+
+---
+
+## 更新履歴
+
+- 2025年10月29日：Poster Archive Folder 開設、初期構成文登録（Ver.1）
+- 2025年10月29日：関連文書リンクを追加
+- 2025年10月29日：文体統一および表記整備完了
