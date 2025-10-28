@@ -8,4 +8,4 @@ Web3 Proof DAO 憲章は、証明の民主化を掲げ、人々が信頼を分�
 
 （制定）2025年10月29日  
 創設者 荻原一彦  
-Web3 Proof DAO
+Web3 Proof DAO,,
