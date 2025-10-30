@@ -9,3 +9,4 @@
 - 5️⃣ [公開ポリシー（Proof Viewer 公開条件）](web3-proof-dao-policy.md)
 
 © 2025 Web3 Proof DAO | Tenchi Isshi Project
+（最終確認済み）
