@@ -16,12 +16,12 @@
 
 ## 1. メインアイコン（Official Main Icon）
 
-![Main Icon](/public/IMG_4719.jpeg)
+![Main Icon](https://raw.githubusercontent.com/asagohann777/web3-proof-dao/main/public/IMG_4719.jpeg)
 
 - **正式名称**: Main Icon  
 - **ファイル名**: `IMG_4719.jpeg`  
 - **推奨用途**: 公式サイトの第一表示、SNS プロフィール、各種告知用サムネイルの既定  
-- **説明**: **オレンジのハート＋青い羽**（**正式メイン**）
+- **説明**: **オレンジのハート＋青い羽（円形）**（**正式メイン**）
 
 ---
 
@@ -29,10 +29,10 @@
 
 ### 2-1. ハート＆翼（別配色バリエーション）
 
-![Sub Icon - Heart & Wings](/public/IMG_4723.JPG)
+![Sub Icon - Heart & Wings](https://raw.githubusercontent.com/asagohann777/web3-proof-dao/main/public/IMG_4723.JPG)
 
 - **ファイル名**: `IMG_4723.JPG`  
-- **説明**: **赤いハート＋金色の翼**、上部にブロックチェーン立方体シンボル  
+- **説明**: **赤いハート＋金の翼**、上部にブロックチェーン立方体シンボル  
 - **推奨用途**: 企画別・資料別の差し替え、SNS 投稿のシリーズ区別
 
 ---
@@ -41,19 +41,19 @@
 
 ### Blue（既定）
 
-![BC Lock - Blue](/public/E23AE1E01-00DB-4BA3-93BD-EC09D4841009.png)
+![BC Lock - Blue](https://raw.githubusercontent.com/asagohann777/web3-proof-dao/main/public/E23AE1E01-00DB-4BA3-93BD-EC09D4841009.png)
 
 - **ファイル名**: `E23AE1E01-00DB-4BA3-93BD-EC09D4841009.png`
 
 ### Orange（準既定・赤系）
 
-![BC Lock - Orange](/public/948503B2-9131-4368-A955-F1FCB3A3A548C.png)
+![BC Lock - Orange](https://raw.githubusercontent.com/asagohann777/web3-proof-dao/main/public/948503B2-9131-4368-A955-F1FCB3A3A548C.png)
 
 - **ファイル名**: `948503B2-9131-4368-A955-F1FCB3A3A548C.png`
 
 ### Green（準拠）
 
-![BC Lock - Green](/public/E7FAACFB-2154-4698-9666-DBAABBDA18664.png)
+![BC Lock - Green](https://raw.githubusercontent.com/asagohann777/web3-proof-dao/main/public/E7FAACFB-2154-4698-9666-DBAABBDA18664.png)
 
 - **ファイル名**: `E7FAACFB-2154-4698-9666-DBAABBDA18664.png`
 
