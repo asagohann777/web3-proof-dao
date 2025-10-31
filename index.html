@@ -2,54 +2,43 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Web3 Proof DAO | Official Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      text-align: center;
-      background-color: #fffaf5;
-      margin: 0;
-      padding: 40px;
+    :root {
+      --bg:#fffaf5;
+      --text:#222;
+      --sub:#666;
+      --link:#0666cc;
+      --card:#ffffff;
+      --shadow:0 8px 24px rgba(0,0,0,.08);
     }
-    h1 {
-      color: #222;
-      font-size: 2.4em;
-      letter-spacing: 1px;
-    }
-    p {
-      color: #444;
-      line-height: 1.6em;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      margin-top: 60px;
-      color: #888;
-      font-size: 0.9em;
-    }
-    img {
-      width: 260px;
-      border-radius: 10px;
-      margin: 20px auto;
-      display: block;
-    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;}
+    .wrap{max-width:860px;margin:48px auto;padding:24px;}
+    .card{background:var(--card);border-radius:14px;box-shadow:var(--shadow);padding:40px 28px;text-align:center;}
+    h1{margin:0 0 20px;font-size:2.2rem;letter-spacing:.02em}
+    p{margin:12px auto;line-height:1.8;color:var(--sub)}
+    img.logo{width:260px;display:block;margin:10px auto 6px;border-radius:12px}
+    a{color:var(--link);text-decoration:none;font-weight:600}
+    a:hover{text-decoration:underline}
+    footer{margin-top:36px;color:#888;font-size:.9rem}
   </style>
 </head>
 <body>
-  <h1>Web3 Proof DAO</h1>
-  <img src="public/IMG_4723.JPG?v=2" alt="Web3 Proof DAO Official Logo">
-  <p>ブロックチェーンによる「証明の民主化」を推進する、非中央集権型プロジェクト。</p>
-  <p>このサイトは <strong>Web3 Proof DAO</strong> の公式ドキュメントおよび発信ページです。</p>
-  <p><a href="https://github.com/asagohann777/web3-proof-dao">GitHub Pages 公開サイトへ</a></p>
-  <footer>
-    © 2025 Web3 Proof DAO. All rights reserved.
-  </footer>
+  <main class="wrap">
+    <section class="card">
+      <h1>Web3 Proof DAO</h1>
+
+      <!-- メインアイコン（青い羽＋オレンジハート） -->
+      <img class="logo" src="public/IMG_4904.PNG" alt="Web3 Proof DAO Main Logo" />
+
+      <p>ブロックチェーンによる「証明の民主化」を推進する、非中央集権型プロジェクト。</p>
+      <p>このサイトは <strong>Web3 Proof DAO</strong> の公式ドキュメントおよび発信ページです。</p>
+
+      <p><a href="https://asagohann777.github.io/web3-proof-dao/">GitHub Pages 公開サイトへ</a></p>
+
+      <footer>© 2025 Web3 Proof DAO. All rights reserved.</footer>
+    </section>
+  </main>
 </body>
 </html>
