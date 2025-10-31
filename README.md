@@ -22,69 +22,67 @@ Web3 Proof DAOは、「証明の民主化（Proof of Democracy）」を掲げる
 
 ---
 
-## 構成（Structure）
+## トークン設計（Token Design）
 
-Web3 Proof DAOは以下の7章構成で成り立ちます。  
-各章は、DAOの原則・制度・運営方針を明示し、全体として一貫したProof Ecosystemを形成します。
+DAO運営の透明性・公共性を維持するため、  
+トークン分配比率を以下の通りとする。
 
-1. [第1章 総則（General Provisions）](docs/chapter1_general_provisions.md)  
-2. [第2章 定義と範囲（Definitions and Scope）](docs/chapter2_definitions_and_scope.md)  
-3. [第3章 組織と構造（Organization and Structure）](docs/chapter3_organization_and_structure.md)  
-4. [第4章 トークン設計と経済圏（Tokenomics and Economy）](docs/chapter4_tokenomics_and_economy.md)  
-5. [第5章 開発と責任（Innovation and Responsibility）](docs/chapter5_innovation_and_responsibility.md)  
-6. [第6章 ガバナンスと参加（Governance and Participation）](docs/chapter6_governance_and_participation.md)  
-7. [第7章 原則と使命（Principles and Mission）](docs/chapter7_principles_and_mission.md)
-
----
-
-## トークンエコノミー（Token Economy）
-
-DAOの運営は独自トークン「Proof Token（PT）」によって支えられます。  
-このトークンは、貢献度・証明数・評価などの行動に基づいて分配され、  
-中央管理者を介さず公平な循環を実現します。
+### ● トークン分配比率（設立時）
 
 | 区分 | 割合 | 用途 |
 |------|------|------|
-| 創設者・初期メンバー | 30〜35% | 基盤整備・理念維持 |
-| 開発チーム | 10〜20% | システム・デザイン開発 |
-| 初期参加者（Early Proofers） | 10% | 貢献報酬・配布 |
-| 公共貢献・教育基金 | 10% | DAO外への社会還元 |
-| 維持・流通プール | 残余 | 継続的運用資金 |
+| 創設者（Founder） | 25% | 理念維持・基盤整備 |
+| 開発パートナー（Developer） | 20% | システム・デザイン開発 |
+| DAOトレジャリー（運営資金） | 35% | 維持・流通・公共プロジェクト |
+| 一般参加者（Public） | 20% | 貢献報酬・配布 |
+
+この分配は「証明の民主化（Proof of Democracy）」という理念を実現するための初期設計であり、  
+全体の意思決定権が偏らぬよう、将来的なDAO投票制度により調整を行う可能性がある。
 
 ---
 
 ## 目的（Mission）
 
 1. あらゆる創造・発明・アイデアをブロックチェーン上に簡易証明として登録できる世界を実現すること。  
-2. 世界中の子ども・学生・創作者・研究者が、自らの創作を守り、価値を主張できる仕組みをつくること。  
-3. DAOという共同体を通じ、証明・共有・協働の文化を世界へ拡げること。  
+2. 世界中の子ども・学生・創作者・研究者が、自らの創造を守り、価値を主張できる仕組みをつくること。  
+3. DAOという共同体を通じ、証明・共有・協働の文化を世界へ拡げること。
 
 ---
 
-## 将来構想（Vision）
+## 基本構成（Structure）
 
-- **Proof Democracy（証明の民主主義）** の確立  
-- **Proof Chain**（証明の連鎖）による創造社会の構築  
-- **Proof Passport**（個人証明パスポート）によるグローバルID基盤の確立  
-- **Wave3 Proof Network** の展開（国・地域・教育・企業DAO連携）
+Web3 Proof DAOは以下の7章構成に基づく。
 
----
-
-## 参加と貢献（Participation）
-
-Proof DAOは、誰もが参加できる「オープン・ガバナンス」を採用します。  
-メンバーは提案・投票・開発・創作・教育・翻訳・検証など、  
-多様な方法でDAOに貢献することができます。  
-
-> “あなたのProofが、世界の未来を形づくる。”
+1. 第1章　総則（General Provisions）  
+2. 第2章　理念と目的（Philosophy and Mission）  
+3. 第3章　組織体制（Organization and Roles）  
+4. 第4章　トークン設計（Token Design）  
+5. 第5章　運用・財務（Operation and Treasury）  
+6. 第6章　革新と責任（Innovation and Responsibility）  
+7. 第7章　ガバナンスと参加（Governance and Participation）
 
 ---
 
-## 免責（Disclaimer）
+## 将来展望（Future Vision）
 
-本DAOは非営利の理念共有体であり、金融的投資や通貨取引を目的とするものではありません。  
-参加・証明・発行・投票などはすべて任意であり、DAO外の法律・通貨制度には従属しません。  
+Web3 Proof DAOは、  
+「ブロックチェーン簡易登録アプリ」および「ブロックチェーン証明システム」を核とし、  
+教育・研究・地域社会・創作者支援など多分野への応用を目指します。  
+
+最終的には、  
+**「証明が価値を生む社会」**を構築し、  
+すべての人が平等に参加できるProof-based Economy（証明経済圏）を形成します。
 
 ---
 
-© 2025 Web3 Proof DAO — Proof for Everyone  
+## ライセンス（License）
+
+本プロジェクトの文書・構成・設計思想は、  
+「Web3 Proof DAO 憲章」に基づき公開・共有され、  
+DAO内での改訂・承認手続きを通じて更新されます。
+
+---
+
+**発行日：2025年10月29日（初版）**  
+**改訂日：2025年11月1日（正式改訂版）**  
+© Web3 Proof DAO 2025
