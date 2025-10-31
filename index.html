@@ -1,108 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web3 Proof DAO | Official Page</title>
-  <meta name="description" content="ブロックチェーンで『証明の民主化』を進める、非中央集権型コミュニティ。誰でも参加OK。" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="color-scheme" content="light dark" />
-  <link rel="icon" href="./public/IMG_4719.jpeg" />
+  <meta name="description" content="ブロックチェーンで『証明の民主化』を進める、非中央集権型コミュニティ。誰でも参加OK。">
+  <link rel="icon" href="./public/IMG_4719.jpeg">
 
   <style>
-    :root{
-      --bg: #ffffff;
-      --text: #1a1a1a;
-      --muted:#6b7280;
-      --brand:#e53935;   /* ヘッダー色（赤系） */
-      --accent:#06C755;  /* LINEボタン色 */
-      --btn:#333333;     /* サブボタン色 */
-      --radius:14px;
-      --max: 980px;
+    :root {
+      --red: #e74c3c;
+      --green: #2ecc71;
+      --black: #333;
+      --gray: #f4f4f4;
     }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;line-height:1.7}
-    a{color:inherit}
-    img{max-width:100%;height:auto;display:block}
-
-    /* ヒーロー */
-    .hero{
-      background:var(--brand);
-      color:#fff;
-      padding:56px 20px 32px;
+    body {
+      font-family: 'Hiragino Sans', 'Meiryo', sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: var(--black);
     }
-    .wrap{max-width:var(--max);margin:0 auto}
-    .badge{
-      width:120px;height:120px;margin:0 auto 16px;
-      background:#fff;border-radius:24px;display:grid;place-items:center;
-      box-shadow:0 8px 24px rgba(0,0,0,.18)
+    header {
+      background-color: var(--red);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
     }
-    .title{font-size:28px;font-weight:800;text-align:center;margin:6px 0 8px}
-    .lead{opacity:.95;text-align:center;margin:0}
-
-    /* 本文カード */
-    .card{
-      max-width:var(--max); margin:-28px auto 32px; background:#fff; border-radius:var(--radius);
-      box-shadow:0 10px 28px rgba(0,0,0,.12); overflow:hidden
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
-    .section{padding:26px 22px;border-top:1px solid #f0f2f5}
-    .section:first-child{border-top:none}
-    .section h2{font-size:18px;margin:0 0 8px}
-    .muted{color:var(--muted);font-size:14px}
-
-    /* ボタン群 */
-    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
-    .btn{
-      display:inline-block; padding:12px 16px; border-radius:10px; text-decoration:none;
-      font-weight:700; letter-spacing:.02em; box-shadow:0 2px 10px rgba(0,0,0,.08)
+    header h1 {
+      font-size: 26px;
+      margin-top: 10px;
+      letter-spacing: 1px;
     }
-    .btn-line{background:var(--accent); color:#fff}
-    .btn-join{background:var(--btn); color:#fff}
-    .btn-ghost{background:#fff;border:1px solid #e5e7eb;color:#111}
-
-    /* フッター */
-    footer{max-width:var(--max);margin:12px auto 36px;padding:0 20px;color:var(--muted);font-size:13px}
-    hr{border:none;border-top:1px solid #eaecef;margin:18px 0}
-
-    /* ダークモード軽対応 */
-    @media (prefers-color-scheme: dark){
-      :root{--bg:#0b0c0e;--text:#f5f6f7;--muted:#9aa0a6;--btn:#2b2f36}
-      .card{background:#111318;box-shadow:0 10px 28px rgba(0,0,0,.4)}
-      .badge{background:#111}
-      .btn-ghost{background:#111318;border-color:#2a2f36;color:#f5f6f7}
-      hr{border-top-color:#252a33}
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      line-height: 1.7;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .btn-area {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 16px;
+      text-decoration: none;
+      margin: 5px;
+    }
+    .btn-line {
+      background-color: var(--green);
+      color: white;
+    }
+    .btn-join {
+      background-color: var(--black);
+      color: white;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 13px;
+      margin: 40px 0 20px;
     }
   </style>
 </head>
-<body>
 
-  <!-- ヒーロー -->
-  <header class="hero">
-    <div class="wrap">
-      <div class="badge">
-        <img src="./public/IMG_4719.jpeg" alt="Web3 Proof DAO ロゴ" width="92" height="92" />
-      </div>
-      <h1 class="title">🌐 Web3 Proof DAO</h1>
-      <p class="lead">ブロックチェーンで「証明の民主化」を進めるみんなのDAO。</p>
-    </div>
+<body>
+  <header>
+    <img src="./public/IMG_4719.jpeg" alt="Web3 Proof DAO">
+    <h1>🌐 Web3 Proof DAO</h1>
+    <p>ブロックチェーンによる「証明の民主化」を進めるみんなのDAO。</p>
   </header>
 
-  <!-- 本文カード -->
-  <main class="card">
-    <section class="section">
+  <main>
+    <section>
       <h2>このコミュニティについて</h2>
-      <p>ブロックチェーン証明・DAO構築・Proof Democracy に関心がある人のための場所です。<br>
-         はじめての方も経験者も歓迎。まずは情報を見て、気軽に話して、いっしょに形にしていきましょう。</p>
-      <div class="actions">
-        <!-- ↓↓↓ ここを本物URLに差し替え ↓↓↓ -->
-        <a class="btn btn-line" href="LINE_OFFICIAL_URL" target="_blank" rel="noopener">LINE公式をひらく</a>
-        <a class="btn btn-join" href="OPENCHAT_URL" target="_blank" rel="noopener">オープンチャットに参加</a>
-        <!-- ↑↑↑ 差し替えここまで ↑↑↑ -->
+      <p>ブロックチェーン証明・DAO構築・Proof Democracy に関心のある人のための場所です。<br>
+      はじめての方も経験者も歓迎。まずは情報を見て、気軽に話して、いっしょに形にしていきましょう。</p>
+      <div class="btn-area">
+        <a class="btn btn-line" href="https://lin.ee/xxxxxx" target="_blank">LINE公式をひらく</a>
+        <a class="btn btn-join" href="https://line.me/ti/g/xxxxxx" target="_blank">オープンチャットに参加</a>
       </div>
-      <p class="muted">※ QRや外部誘導に関する各プラットフォーム規約は順守します。</p>
+      <p style="font-size:13px; color:#555;">※ 各プラットフォームの規約に準拠します。</p>
     </section>
 
-    <section class="section">
+    <section>
       <h2>やること</h2>
       <ul>
         <li>プロトタイプの公開と改善（軽量な実装から素早く検証）</li>
@@ -111,21 +106,19 @@
       </ul>
     </section>
 
-    <section class="section">
+    <section>
       <h2>コミュニティのきまり（短く）</h2>
       <ul>
-        <li>誹謗・中傷・スパムはNG。</li>
-        <li>宣伝は管理者の許可制。コラボ提案は歓迎。</li>
-        <li>未成年が見ても困らない表現で。</li>
+        <li>誹謗・中傷・スパムは禁止。</li>
+        <li>意見は歓迎、攻撃は不要。協力と提案を重視。</li>
+        <li>未成熟でも良い。発想と行動を尊重します。</li>
       </ul>
-      <p class="muted">困った時は管理者まで。即ブロック・ミュート対応します。</p>
+      <p style="font-size:13px;">問題が発生した場合は、即ブロック・ミュートで対応します。</p>
     </section>
   </main>
 
   <footer>
-    <hr>
     <p>© 2025 Web3 Proof DAO. All Rights Reserved.</p>
   </footer>
-
 </body>
 </html>
