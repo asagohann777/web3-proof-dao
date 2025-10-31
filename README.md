@@ -75,7 +75,46 @@ Web3 Proof DAOは、
 
 ---
 
-## ライセンス（License）
+## ライセンス（License
+
+---
+
+## 🪩 参加形態（How to Join）
+
+現在、Web3 Proof DAO は理念と憲章を公開した初期フェーズにあります。  
+正式なWeb3ウォレット接続によるDAO参加機能（スマートコントラクト）は準備中です。  
+
+現時点では、以下のいずれかの方法で参加・登録いただけます：
+
+1. **LINEオープンチャット「Web3 Proof DAO」**  
+　➡︎ [参加する](https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw)
+
+2. **公式LINEアカウントを追加**  
+　➡︎ [友だち登録](https://lin.ee/A3f05Ys)
+
+📱 **公式LINE QRコード**  
+![LINE QRコード](https://github.com/asagohann777/web3-proof-dao/blob/main/public/LINE_QR.jpg)
+
+これらの登録により、DAOコミュニティの「初期メンバー（First Members）」として扱われます。  
+今後、Proof Token の発行とスマートコントラクト運用が開始された際には、正式なDAOメンバーとして承認・移行されます。
+
+---
+
+## 🌐 参加・連絡・資料一覧（Join & Contact）
+
+📖 **DAO憲章（Web3 Proof DAO 憲章）**  
+このページにて全文を公開・共有しています。  
+➡︎ https://github.com/asagohann777/web3-proof-dao  
+
+📩 **連絡先（Contact）**  
+Web3 Proof DAO 構想者:天地一指プロジェクト　代表　荻原一彦  
+Email：info@tennchiai.com  
+
+---
+
+📜 **理念**  
+本DAOは「証明の民主化（Proof of Democracy）」を理念とし、  
+創作・技術・生活のあらゆる分野における「信頼の新しい形」を提案します。
 
 本プロジェクトの文書・構成・設計思想は、  
 「Web3 Proof DAO 憲章」に基づき公開・共有され、  
