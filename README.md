@@ -110,6 +110,7 @@ Web3 Proof DAOは、
 Web3 Proof DAO 構想者:天地一指プロジェクト　代表　荻原一彦  
 Email：info@tennchiai.com  
 
+
 ---
 
 📜 **理念**  
