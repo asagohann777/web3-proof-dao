@@ -69,17 +69,43 @@
       <h2>参加・最新情報</h2>
       <p class="desc">参加相談・質疑はオープンチャット、ニュース配信は公式LINEからお届けします。</p>
 
-      <div class="btns">
-        <!-- LINE オープンチャット -->
-        <a class="btn green" href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
-           target="_blank" rel="noopener">LINEオープンチャット（参加口）</a>
+      <div class="card">
+  <h3>📘 DAO 本体ページ（GitHub：概要・技術・文書一式）</h3>
+  <div class="btns">
+    <a
+      href="https://github.com/asagohann777/web3-proof-dao"
+      class="btn blank"
+      target="_blank"
+      rel="noopener"
+      data-newtab="true"
+    >
+      DAO本体ページ（GitHub：概要・技術・文書一式）
+    </a>
 
-        <!-- 公式LINE（後で差し替え可） -->
-        <a class="btn blue" href="https://lin.ee/pXzed3a" target="_blank" rel="noopener">公式LINE（ニュース配信）</a>
+    <a
+      href="https://github.com/asagohann777/web3-proof-dao"
+      class="btn blank"
+      target="_blank"
+      rel="noopener"
+      data-newtab="true"
+    >
+      DAO本体を開く（新規タブ）
+    </a>
+  </div>
+  <p class="note">※ GitHub は外部サイトです。新しいタブで開きます。</p>
+</div>
       </div>
     </section>
 
     <div class="foot">© 2025 Web3 Proof DAO / 天地一指プロジェクト</div>
-  </main>
+  </main><script>
+  // data-newtab="true" が付いたリンクは必ず新規タブで開く
+  document.addEventListener('click', function (e) {
+    const a = e.target.closest('a[data-newtab="true"]');
+    if (!a) return;
+    e.preventDefault();
+    window.open(a.href, '_blank', 'noopener');
+  });
+</script>
 </body>
 </html>
