@@ -1,156 +1,120 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Web3 Proof DAO 公式サイト。信頼と証明の新時代へ。">
-  <title>Web3 Proof DAO | 公式サイト</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web3 Proof DAO 公式サイト</title>
+  <meta name="description" content="Web3 Proof DAO：証明の民主化。DAO本体（GitHub）・README・参加口（LINEオープンチャット/公式LINE）への入口ページ。" />
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
-      background: linear-gradient(180deg, #dff2ff, #f8fbff);
-      margin: 0;
-      color: #111827;
-      text-align: center;
+    :root{
+      --bg1:#e6f3ff;
+      --bg2:#cfe9ff;
+      --panel:#ffffff;
+      --text:#112;
+      --accent:#1d7df2;
+      --accent2:#00a36a;
+      --accent3:#0ea5e9;
+      --shadow:0 10px 24px rgba(0,0,0,.08);
+      --radius:16px;
     }
-    header {
-      background: linear-gradient(135deg, #007bff, #0ea5e9);
-      color: white;
-      padding: 48px 16px 40px 16px;
+    *{box-sizing:border-box;}
+    body{
+      margin:0; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN","Yu Gothic", Meiryo, sans-serif;
+      color:var(--text); background:linear-gradient(135deg,var(--bg1),var(--bg2)) fixed;
     }
-    h1 {
-      margin: 0;
-      font-size: 2.4em;
-      font-weight: 800;
+    .wrap{max-width:980px; margin:auto; padding:32px 16px 64px;}
+    .hero{
+      text-align:center; padding:56px 16px 24px;
+      color:#fff; background:linear-gradient(135deg,#0095ff,#52b6ff);
+      border-bottom-left-radius:24px;border-bottom-right-radius:24px;
+      box-shadow:var(--shadow);
     }
-    p.subtitle {
-      margin-top: 10px;
-      font-size: 1.1em;
-      opacity: 0.9;
+    h1{margin:0 0 8px; font-size:40px; letter-spacing:.4px;}
+    .lead{opacity:.9; font-size:14px}
+    .section{background:var(--panel); box-shadow:var(--shadow); border-radius:var(--radius); padding:20px; margin:24px 0;}
+    .section h2{margin:0 0 6px; font-size:20px}
+    .desc{font-size:13px; opacity:.9; margin-bottom:14px}
+    .card{
+      background:linear-gradient(135deg,#1e73ff,#0ea5e9);
+      border-radius:14px; padding:18px; color:#fff; margin:14px 0; box-shadow:var(--shadow);
     }
-    section {
-      max-width: 900px;
-      margin: 32px auto;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      padding: 24px;
-      text-align: left;
+    .card h3{margin:0 0 10px; font-size:16px}
+    .btn{
+      display:inline-block; padding:12px 18px; border-radius:10px;
+      background:#fff; color:#0b3b8f; font-weight:700; text-decoration:none;
+      box-shadow:var(--shadow); transition:transform .06s ease;
     }
-    h2 {
-      color: #1d4ed8;
-      margin-bottom: 12px;
+    .btn:active{transform:translateY(1px)}
+    .btn.green{color:#fff; background:var(--accent2)}
+    .btn.blue{color:#fff; background:var(--accent)}
+    .btn.cyan{color:#fff; background:var(--accent3)}
+    .stack{display:flex; gap:10px; flex-wrap:wrap}
+    .stack .btn{min-width:220px; text-align:center}
+    footer{padding:24px 0; text-align:center; font-size:12px; opacity:.75}
+    /* 画面右下に常時表示の“表紙へ”ボタン（外部先から戻る保険用：同タブリロード）*/
+    .home-fab{
+      position:fixed; right:16px; bottom:16px; z-index:50;
+      background:#111; color:#fff; border-radius:999px; padding:10px 14px; text-decoration:none; font-weight:700; box-shadow:var(--shadow); opacity:.9;
     }
-    .card {
-      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-      color: white;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 14px;
-    }
-    .card a {
-      display: inline-block;
-      background: white;
-      color: #1d4ed8;
-      padding: 10px 16px;
-      margin-top: 10px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .line-card {
-      background: linear-gradient(135deg, #16a34a, #22c55e);
-      color: white;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 14px;
-    }
-    .line-card a {
-      display: inline-block;
-      background: white;
-      color: #166534;
-      padding: 10px 16px;
-      margin-top: 10px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .official-line {
-      background: linear-gradient(135deg, #0ea5e9, #06b6d4);
-      color: white;
-      border-radius: 12px;
-      padding: 16px;
-    }
-    .official-line a {
-      display: inline-block;
-      background: white;
-      color: #0e7490;
-      padding: 10px 16px;
-      margin-top: 10px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      color: #6b7280;
-      font-size: 0.9em;
-      padding: 24px;
-      margin-top: 40px;
-    }
+    .home-fab:hover{opacity:1}
   </style>
 </head>
 <body>
+  <a class="home-fab" href="https://asagohann777.github.io/web3-proof-dao/">表紙へ</a>
 
-<header>
-  <h1>Web3 Proof DAO</h1>
-  <p class="subtitle">信頼と証明の新しい時代へ。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
-</header>
+  <header class="hero">
+    <h1>Web3 Proof DAO</h1>
+    <p class="lead">信頼と証明の新しい時代へ。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
+  </header>
 
-<!-- DAO本体 -->
-<section>
-  <h2>DAO本体（設計・憲章・概要）</h2>
-  <p>理念・憲章・運営設計、技術ファイル、最新ドキュメントへの入り口です。</p>
+  <main class="wrap">
 
-  <div class="card">
-    <h3>📘 DAO本体ページ（GitHub）</h3>
-    <p>概要・技術・文書一式はこちら。</p>
-    <a href="https://github.com/asagohann777/web3-proof-dao" target="_blank">DAO本体を開く</a>
-  </div>
+    <!-- DAO本体 -->
+    <section class="section">
+      <h2>DAO本体（設計・憲章・概要）</h2>
+      <p class="desc">まずはこちらをご覧ください。理念・憲章・運営設計、技術ファイル、最新ドキュメントへの入口です。</p>
 
-  <div class="card">
-    <h3>📄 README（開始ガイド / 目次）</h3>
-    <a href="https://github.com/asagohann777/web3-proof-dao/blob/main/README.md" target="_blank">READMEを開く</a>
-  </div>
+      <div class="card">
+        <h3>📘 DAO本体ページ（GitHub：概要・技術・文書一式）</h3>
+        <div class="stack">
+          <!-- すべて新規タブで開く -->
+          <a class="btn blue" href="https://github.com/asagohann777/web3-proof-dao" target="_blank" rel="noopener">DAO本体を開く（新規タブ）</a>
+          <a class="btn cyan" href="https://asagohann777.github.io/web3-proof-dao/README.html" target="_blank" rel="noopener">README（目次）を開く（新規タブ）</a>
+        </div>
+      </div>
+    </section>
 
-  <div class="card" style="background:linear-gradient(135deg,#2563eb,#3b82f6);">
-    <h3>⬅︎ 公式サイトへ戻る</h3>
-    <a href="https://asagohann777.github.io/">Web3 Proof DAO ホーム</a>
-  </div>
-</section>
+    <!-- 参加・最新情報 -->
+    <section class="section">
+      <h2>参加・最新情報</h2>
+      <p class="desc">参加相談・質疑はオープンチャットへ。ニュース配信は公式LINEからお届けします。</p>
 
-<!-- 参加・最新情報 -->
-<section>
-  <h2>参加・最新情報</h2>
-  <p>参加相談・質疑応答はオープンチャットへ。ニュース配信は公式LINEからお届けします。</p>
+      <div class="card" style="background:linear-gradient(135deg,#12c06a,#04aa67);">
+        <h3>💬 LINEオープンチャット（参加口）</h3>
+        <a class="btn green" href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" rel="noopener">オープンチャットを開く（新規タブ）</a>
+      </div>
 
-  <div class="line-card">
-    <h3>💬 LINEオープンチャット</h3>
-    <p>DAOに関する質問・提案・議論はこちら。</p>
-    <a href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank">オープンチャットに参加する</a>
-  </div>
+      <div class="card" style="background:linear-gradient(135deg,#3b82f6,#2563eb);">
+        <h3>📢 公式LINE（ニュース配信）</h3>
+        <!-- TODO: 社長様の公式LINE URLに差し替え -->
+        <a class="btn blue" href="https://lin.ee/your_official_line_url" target="_blank" rel="noopener" title="後で差し替え">公式LINEを開く（新規タブ）</a>
+      </div>
+    </section>
 
-  <div class="official-line">
-    <h3>📣 公式LINE</h3>
-    <p>最新情報・更新案内を受け取るにはこちらを追加。</p>
-    <a href="#" target="_blank">公式LINEを友だち追加</a>
-  </div>
-</section>
+  </main>
 
-<footer>
-  <p>© 2025 Web3 Proof DAO / 天地一指プロジェクト</p>
-  <p>“Proof for Everyone — すべての人に証明を。”</p>
-</footer>
+  <footer>
+    © 2025 Web3 Proof DAO / 天地一指プロジェクト
+  </footer>
 
+  <script>
+    // 念のため：外部リンクはすべて新規タブで開く
+    document.querySelectorAll('a[href^="http"]').forEach(a=>{
+      if(!a.href.includes(location.host)){
+        a.setAttribute('target','_blank');
+        a.setAttribute('rel','noopener');
+      }
+    });
+  </script>
 </body>
 </html>
