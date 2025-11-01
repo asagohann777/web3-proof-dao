@@ -10,90 +10,106 @@
       margin: 0;
       background: linear-gradient(180deg, #007BFF, #4FA8FF);
       color: #222;
+      text-align: center;
     }
     header {
-      text-align: center;
-      padding: 80px 20px 40px 20px;
-      color: #fff;
+      padding: 100px 20px 60px;
+      color: white;
     }
-    header img {
-      width: 148px;
-      height: 148px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-    }
-    header h1 {
-      margin: 0;
+    h1 {
       font-size: 2em;
-      font-weight: bold;
+      margin-bottom: 0.3em;
     }
-    header p {
-      font-size: 1em;
+    p.subtitle {
+      font-size: 1.1em;
       opacity: 0.9;
     }
     section {
-      background: #fff;
-      max-width: 800px;
+      background: white;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 700px;
       margin: 20px auto;
-      padding: 24px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      text-align: left;
     }
     h2 {
-      margin-top: 0;
-      color: #333;
       font-size: 1.2em;
+      border-left: 5px solid #007BFF;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+    .button-group {
+      text-align: center;
+      margin-top: 15px;
     }
     .button {
       display: inline-block;
-      background-color: #007BFF;
-      color: #fff;
+      background: #007BFF;
+      color: white;
       text-decoration: none;
       padding: 10px 20px;
-      border-radius: 6px;
-      margin-top: 8px;
+      border-radius: 5px;
+      margin: 5px;
+      transition: background 0.2s;
     }
     .button:hover {
-      background-color: #0056cc;
+      background: #0056b3;
     }
     footer {
-      text-align: center;
-      color: #fff;
-      font-size: 0.85em;
-      padding: 20px;
+      margin-top: 40px;
+      padding: 10px;
+      color: white;
+      font-size: 0.9em;
       opacity: 0.8;
     }
   </style>
 </head>
-
 <body>
   <header>
-    <img src="./assets/hero-logo.png" alt="Web3 Proof DAO メインロゴ">
     <h1>Web3 Proof DAO｜天地一指プロジェクト</h1>
-    <p>信頼と証明の新しい時代へ。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
+    <p class="subtitle">信頼と証明の新しい時代へ。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
   </header>
 
+  <!-- DAO本体 -->
   <section>
     <h2>DAO本体（設計・憲章・概要）</h2>
     <p>理念・意義・運営設計・技術ファイルなど、公式ドキュメントはこちらから。</p>
-    <a class="button" href="https://github.com/asagohann777/web3-proof-dao/blob/main/docs/dao-main.html" target="_blank">DAO本体を開く（新規タブ）</a>
+    <div class="button-group">
+      <a href="docs/dao.html" target="_blank" class="button">DAO本体を開く（新規タブ）</a>
+    </div>
   </section>
 
+  <!-- README -->
   <section>
     <h2>README（開始ガイド／目次）</h2>
     <p>プロジェクトの全体構造・導入手順を確認できます。</p>
-    <a class="button" href="https://github.com/asagohann777/web3-proof-dao/blob/main/docs/README.md" target="_blank">READMEを開く（新規タブ）</a>
+    <div class="button-group">
+      <a href="README.md" target="_blank" class="button">READMEを開く（新規タブ）</a>
+    </div>
   </section>
 
+  <!-- 参加・最新情報 -->
   <section>
     <h2>参加・最新情報</h2>
     <p>参加相談・質問はオープンチャット、ニュース配信は公式LINEからお届けします。</p>
-    <a class="button" href="#" target="_blank">LINEオープンチャットに参加</a>
-    <a class="button" href="#" target="_blank">公式LINEを開く</a>
+    <div class="button-group">
+      <!-- オープンチャット -->
+      <a href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+         target="_blank" class="button">
+         LINEオープンチャットに参加
+      </a>
+      <!-- 公式LINE -->
+      <a href="https://lin.ee/A3f05Ys"
+         target="_blank" class="button">
+         公式LINEを開く
+      </a>
+    </div>
   </section>
 
   <footer>
-    © 2025 Web3 Proof DAO / 天地一指プロジェクト
+    © 2025 Web3 Proof DAO｜天地一指プロジェクト
   </footer>
 </body>
 </html>
