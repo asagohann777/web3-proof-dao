@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web3 Proof DAO 憲章｜天地一指プロジェクト</title>
-  <meta name="description" content="Web3 Proof DAO 憲章全文。理念・基本原則・統治・透明性・倫理・革新についての章立て。">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web3 Proof DAO 憲章</title>
+  <meta name="description" content="Web3 Proof DAO の理念・基本原理・構造・透明性・倫理・革新・参加についての憲章本文。" />
   <style>
-    body {margin:0; font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
-      background:#f5f7fb; color:#111;}
-    header {background:#0e3aff; color:#fff; text-align:center; padding:48px 24px;}
-    header h1 {margin:0; font-size:28px;}
-    main {max-width:900px; margin:0 auto; padding:24px;}
-    section {background:#fff; border-radius:12px; margin:18px 0; padding:20px; box-shadow:0 4px 18px rgba(0,0,0,.06);}
-    h2 {color:#0e3aff; margin-top:0; border-bottom:1px solid #d0d8ff; padding-bottom:6px;}
-    p {line-height:1.8;}
-    a.btn {display:inline-block; margin-top:14px; background:#0b66ff; color:#fff; padding:10px 18px;
-      border-radius:8px; text-decoration:none; font-weight:600;}
-    footer {text-align:center; color:#666; padding:40px 0;}
+    :root{
+      --bg1:#0ea3ff; --bg2:#2894ff; --card:#fff; --text:#111; --muted:#667;
+      --pill:#eef6ff; --pillText:#0865c9;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:-apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      color:var(--text); background:linear-gradient(135deg,var(--bg1),#e9f3ff 40%,#fff 70%);
+    }
+    header{padding:48px 16px 24px; text-align:center; color:#fff;
+      background:linear-gradient(180deg,var(--bg2),#1e7ee6)}
+    header h1{margin:0 0 10px; font-size:26px}
+    main{max-width:980px; margin:28px auto; padding:0 16px}
+    .panel{background:var(--card); border-radius:14px; padding:18px; margin:18px 0; box-shadow:0 6px 22px rgba(0,0,0,.06)}
+    .chapter{border-top:1px solid #e6eefb; padding:14px 8px}
+    .chapter h3{margin:.2em 0 .2em; color:#1255aa}
+    .muted{color:var(--muted)}
+    .btn{
+      display:inline-block; padding:12px 28px; border-radius:8px; text-decoration:none; font-weight:700;
+      background:#007bff; color:#fff; box-shadow:0 8px 18px rgba(0,123,255,.18); transition:filter .15s, transform .02s;
+    }
+    .btn:hover{filter:brightness(1.03)}
+    .btn:active{transform:translateY(1px)}
+    .center{text-align:center}
+    footer{color:#fff; text-align:center; padding:18px 12px; margin:42px 0 0;
+      background:linear-gradient(180deg,#1e7ee6,#165db0)}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Web3 Proof DAO 憲章</h1>
-    <p>天地一指プロジェクト｜Proofの民主化へ</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>第1章　序文</h2>
-      <p>我々は、デジタル時代における「信頼」の再定義を志す。ブロックチェーン技術による証明と公開を通じて、真実と創造の価値をすべての人に平等に届ける。</p>
-    </section>
+<header>
+  <h1>Web3 Proof DAO 憲章</h1>
+</header>
 
-    <section>
-      <h2>第2章　基本理念</h2>
-      <p>中央集権を排し、Proof（証明）の力を個人へと返還する。これこそがWeb3 Proof DAOの根本原理である。</p>
-    </section>
+<main class="panel">
+  <div class="chapter">
+    <h3>第1章　序文</h3>
+    <p class="muted">我々は、デジタル時代における「信頼」の再定義を志す。ブロックチェーンによる証明と公開を通じて、真実と創造の価値をすべての人に平等に届ける。</p>
+  </div>
 
-    <section>
-      <h2>第3章　構造と統治</h2>
-      <p>DAOは透明性・平等性・永続性を持つ自律分散機構であり、全ての意思決定はトークンホルダーと証明者による投票で行う。</p>
-    </section>
+  <div class="chapter">
+    <h3>第2章　基本理念</h3>
+    <p class="muted">中央集権を排し、Proof（証明）の力を個人に返還する。これが Web3 Proof DAO の根本原理。</p>
+  </div>
 
-    <section>
-      <h2>第4章　透明性と証明</h2>
-      <p>全ての記録・発言・契約・制作物をブロックチェーン上に残し、改ざん不可能な形で後世へ残す。</p>
-    </section>
+  <div class="chapter">
+    <h3>第3章　構造と統治</h3>
+    <p class="muted">DAO は透明性・平等性・永続性を持つ自律分散組織であり、意思決定はトークンホルダーと証明者による投票で行う。</p>
+  </div>
 
-    <section>
-      <h2>第5章　倫理と公正</h2>
-      <p>DAO内のすべての参加者は、互いを尊重し、公平・誠実・非暴力の精神で行動する。</p>
-    </section>
+  <div class="chapter">
+    <h3>第4章　透明性と証明</h3>
+    <p class="muted">すべての記録・発言・契約・制作物をブロックチェーンに残し、改ざん不能な形で後世へ継承する。</p>
+  </div>
 
-    <section>
-      <h2>第6章　革新と責任</h2>
-      <p>技術革新の先に人間性を見失わず、知恵と愛をもって未来を導くことを誓う。</p>
-    </section>
+  <div class="chapter">
+    <h3>第5章　倫理と公正</h3>
+    <p class="muted">DAO 内の全ての参加者は、互いを尊重し、公平・誠実・非暴力の精神で行動する。</p>
+  </div>
 
-    <div style="text-align:center;">
-      <a class="btn" href="./index.html">トップページに戻る</a>
-    </div>
-  </main>
+  <div class="chapter">
+    <h3>第6章　革新と責任</h3>
+    <p class="muted">技術革新の先に人間性を見失わず、知恵と愛をもって未来を導くことを誓う。</p>
+  </div>
 
-  <footer>© 2025 Web3 Proof DAO ／ 天地一指プロジェクト</footer>
+  <div class="center" style="margin-top:22px;">
+    <a class="btn" href="/web3-proof-dao/index.html">トップページに戻る</a>
+  </div>
+</main>
+
+<footer>© 2025 Web3 Proof DAO / 天地一指プロジェクト</footer>
+
 </body>
 </html>
