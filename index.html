@@ -1,79 +1,80 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>Web3 Proof DAO</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Web3 Proof DAO | Official Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body {
-      font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
-      background: #f7f9fc;
-      color: #222;
-      margin: 0;
-      padding: 0;
-      text-align: center;
+    :root{
+      --bg1:#1381ff; --bg2:#42d3ff; --text:#111; --muted:#5b6b7a;
+      --btn:#0e5bd8; --btn2:#1a9c5a; --btn3:#4a4a4a; --white:#fff;
     }
-    header {
-      background: linear-gradient(135deg, #0080ff, #00c4cc);
-      color: white;
-      padding: 3rem 1rem;
+    *{box-sizing:border-box}
+    body{
+      margin:0; padding:0; color:var(--text);
+      font-family:'Hiragino Sans','Noto Sans JP',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:linear-gradient(135deg,var(--bg1),var(--bg2));
     }
-    h1 {
-      margin: 0;
-      font-size: 2.4rem;
+    .wrap{max-width:980px;margin:60px auto 40px; padding:0 16px;}
+    header{ text-align:center; color:var(--white); }
+    header h1{ font-size:40px; margin:0 0 12px; }
+    header p{ font-size:18px; margin:6px 0; opacity:.95}
+    .buttons{
+      display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin:28px 0 18px;
     }
-    p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      margin: 1.5rem auto;
-      max-width: 720px;
+    .btn{
+      display:inline-block; text-decoration:none; color:var(--white); background:var(--btn3);
+      padding:14px 18px; border-radius:10px; font-weight:700; letter-spacing:.2px;
+      box-shadow:0 6px 14px rgba(0,0,0,.16); transition:transform .06s ease,opacity .2s ease;
     }
-    .links {
-      margin: 2rem auto;
+    .btn:hover{ transform:translateY(-1px); opacity:.95 }
+    .btn-primary{ background:var(--btn); }
+    .btn-secondary{ background:var(--btn2); }
+    .btn-dark{ background:var(--btn3); }
+    /* 左端＝技術ボタンをひと回り大きく */
+    .btn-lg{ padding:18px 22px; font-size:18px; }
+    .note{
+      background:rgba(255,255,255,.92); border-radius:12px;
+      padding:16px 18px; margin:22px auto 34px; max-width:880px; color:#223;
+      box-shadow:0 8px 20px rgba(0,0,0,.10)
     }
-    a {
-      display: inline-block;
-      margin: 0.6rem;
-      padding: 0.8rem 1.4rem;
-      background: #0080ff;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: 0.3s;
+    .note p{ margin:10px 0; line-height:1.7 }
+    footer{
+      text-align:center; color:#203040; background:#eef4fa; padding:26px 10px;
+      border-top:1px solid rgba(0,0,0,.06)
     }
-    a:hover {
-      background: #00a2ff;
-    }
-    footer {
-      margin-top: 3rem;
-      padding: 2rem;
-      background: #eee;
-      font-size: 0.9rem;
-    }
+    footer a{ color:#0b59d0; text-decoration:none; font-weight:700 }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🌐 Web3 Proof DAO</h1>
-    <p>信頼と証明の新しい時代をつくるDAOプロジェクト。<br>
-    あなたの創作や活動を「証明」する仕組みを、誰でも。</p>
+  <div class="wrap">
+    <header>
+      <h1>Web3 Proof DAO</h1>
+      <p>信頼と証明の新しい時代づくり。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
+    </header>
 
-    <div class="links">
-      <a href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_IVTfw" 
-         target="_blank" rel="noopener noreferrer">LINEオープンチャット（参加口）</a>
-      <a href="https://lin.ee/pXzed3a" 
-         target="_blank" rel="noopener noreferrer">公式LINE（ニュース）</a>
-      <a href="https://github.com/asagohann777/web3-proof-dao" 
-         target="_blank" rel="noopener noreferrer">GitHub技術資料</a>
+    <div class="buttons">
+      <!-- 左端：一番重要／大きく -->
+      <a class="btn btn-primary btn-lg" href="https://github.com/asagohann777/web3-proof-dao" target="_blank" rel="noopener">
+        技術・憲章（GitHub）
+      </a>
+      <a class="btn btn-secondary" href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_IVTfw" target="_blank" rel="noopener">
+        LINEオープンチャット（参加口）
+      </a>
+      <a class="btn btn-dark" href="https://lin.ee/pXzed3a" target="_blank" rel="noopener">
+        公式LINE（ニュース）
+      </a>
     </div>
 
-    <p>理念・構想・技術をすべて公開し、<br>
-    “Proof for Everyone（すべての人に証明を）” を掲げています。</p>
-  </header>
+    <div class="note">
+      <p><strong>まずは左の「技術・憲章」</strong>で趣旨と設計をご確認ください。</p>
+      <p>内容に賛同いただける方は、オープンチャットで質疑・参加相談をどうぞ。最新情報は公式LINEで配信します。</p>
+      <p>“Proof for Everyone ― すべての人に証明を。”</p>
+    </div>
+  </div>
 
   <footer>
-    <p>© 2025 Web3 Proof DAO / 天地一指プロジェクト<br>
-    Email: info@tennchiai.com</p>
+    © 2025 Web3 Proof DAO / 天地一指プロジェクト　｜　Email: <a href="mailto:info@tennchiai.com">info@tennchiai.com</a>
   </footer>
 </body>
 </html>
