@@ -1,94 +1,69 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web3 Proof DAO | 天地一指プロジェクト</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web3 Proof DAO｜天地一指プロジェクト</title>
   <style>
-    body {
-      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to bottom, #007bff, #66a6ff);
-      color: #fff;
-      text-align: center;
+    :root{ --bg1:#0b76ff; --bg2:#66a6ff; --card:#ffffff; --ink:#1b2b3a; --ink2:#4c6072; }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0; font-family:"Hiragino Kaku Gothic ProN","Meiryo",sans-serif;
+      color:var(--ink); background:linear-gradient(180deg,var(--bg1),var(--bg2));
     }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 50px 20px;
+    .wrap{ max-width:980px; margin:0 auto; padding:28px 16px 80px; }
+    header{ display:flex; align-items:center; gap:16px; padding:8px 0 20px; }
+    header img{ width:56px; height:56px; border-radius:12px; }
+    h1{ margin:0; font-size:28px; color:#fff; letter-spacing:.02em; }
+    p.lead{ margin:8px 0 0; color:#e9f3ff; }
+    .card{
+      background:var(--card); border-radius:14px; padding:18px 18px 20px;
+      box-shadow:0 8px 18px rgba(0,0,0,.12); margin:18px 0;
     }
-    h1 {
-      font-size: 1.8em;
-      margin-bottom: 0.5em;
+    .card h2{ margin:0 0 6px; font-size:22px; }
+    .card p{ margin:0 0 14px; color:var(--ink2); line-height:1.8; }
+    .btn{
+      display:inline-block; padding:12px 18px; border-radius:10px; font-weight:700;
+      text-decoration:none; background:#0b76ff; color:#fff;
+      border:2px solid #0b76ff; transition:.15s;
     }
-    p {
-      font-size: 1.1em;
-      line-height: 1.7;
-      margin-bottom: 1.5em;
-    }
-    .button {
-      display: inline-block;
-      background: #fff;
-      color: #007bff;
-      font-weight: bold;
-      padding: 12px 25px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-    .button:hover {
-      background: #e8f0ff;
-      transform: scale(1.05);
-    }
-    .card {
-      background: #ffffff22;
-      border-radius: 12px;
-      padding: 25px;
-      margin: 20px 0;
-    }
-    footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #ddd;
-    }
-    img.icon {
-      width: 80px;
-      margin-bottom: 20px;
-    }
+    .btn:hover{ filter:brightness(1.06); }
+    footer{ margin-top:28px; text-align:center; color:#e9f3ff; font-size:12px; }
   </style>
 </head>
-
 <body>
-  <div class="container">
-    <img src="https://asagohann777.github.io/web3-proof-dao/public/icon.png" alt="Web3 Proof DAO アイコン" class="icon">
-    <h1>Web3 Proof DAO｜天地一指プロジェクト</h1>
-    <p>信頼と証明の新しい時代へ。<br>
-    あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
+  <div class="wrap">
+    <header>
+      <!-- 画像が /docs にある場合は相対パスでOK -->
+      <img src="./IMG_4719.jpeg" alt="Web3 Proof DAO">
+      <div>
+        <h1>Web3 Proof DAO｜天地一指プロジェクト</h1>
+        <p class="lead">信頼と証明の新しい時代へ。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
+      </div>
+    </header>
 
-    <div class="card">
+    <section class="card">
       <h2>DAO本体（設計・憲章・概要）</h2>
       <p>理念・憲章・運営設計・技術ファイルなど、公式ドキュメントはこちらから。</p>
-      <a href="README.html" class="button" target="_blank">DAO本体を開く（新規タブ）</a>
-    </div>
+      <!-- ここがポイント：index.html（章一覧）へ。新規タブで開く -->
+      <a class="btn" href="./index.html" target="_blank" rel="noopener">DAO本体を開く（新規タブ）</a>
+    </section>
 
-    <div class="card">
+    <section class="card">
       <h2>README（開始ガイド／目次）</h2>
       <p>プロジェクトの全体構造・導入手順を確認できます。</p>
-      <a href="README.html" class="button" target="_blank">READMEを開く（新規タブ）</a>
-    </div>
+      <!-- README ガイドへ。新規タブで開く -->
+      <a class="btn" href="./README.html" target="_blank" rel="noopener">READMEを見る（新規タブ）</a>
+    </section>
 
-    <div class="card">
+    <section class="card">
       <h2>参加・最新情報</h2>
-      <p>参加相談・質問はオープンチャットへ。<br>
-      最新情報は公式LINEからお届けします。</p>
-      <a href="https://line.me/ti/g2/XXXX" class="button" target="_blank">LINEオープンチャットに参加</a>
-      <a href="https://lin.ee/XXXX" class="button" target="_blank">公式LINEを開く</a>
-    </div>
+      <p>参加相談・質問はオープンチャットへ。最新情報は公式LINEからお届けします。</p>
+      <a class="btn" href="https://line.me/" target="_blank" rel="noopener">LINEオープンチャットに参加</a>
+      <a class="btn" href="https://line.me/" target="_blank" rel="noopener" style="margin-left:8px;">公式LINEを開く</a>
+    </section>
 
-    <footer>
-      © 2025 Web3 Proof DAO｜天地一指プロジェクト
-    </footer>
+    <footer>© 2025 Web3 Proof DAO | Tenchiisshi Project. All rights reserved.</footer>
   </div>
 </body>
 </html>
