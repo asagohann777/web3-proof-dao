@@ -1,93 +1,155 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Web3 Proof DAO | 天地一指プロジェクト</title>
-  <meta name="description" content="信頼と証明の新しい時代へ。あなたの創作・活動・記録をブロックチェーンで『証明』する仕組みを、誰でも。">
-  <style>
-    :root{
-      --ink:#0b2f66;        /* 文字色 */
-      --card:#ffffff;       /* カード背景 */
-      --bg1:#0b76ff;        /* 上の青 */
-      --bg2:#2ac0ff;        /* 下の青 */
-      --accent:#1663ff;     /* ボタン */
-      --accent-ink:#ffffff; /* ボタン文字 */
-      --muted:#5b7aa0;      /* 補助文字 */
-      --radius:14px;
-      --shadow:0 12px 32px rgba(0,0,0,.12);
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0; padding:0}
-    body{
-      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
-      color:var(--ink);
-      background: linear-gradient(180deg, var(--bg1), var(--bg2));
-      min-height:100svh;
-    }
-    .wrap{max-width:980px; margin:0 auto; padding:28px 16px 80px}
-    header{padding:28px 0 8px; color:#fff; text-align:left}
-    header h1{margin:0 0 10px; font-size:34px; letter-spacing:.5px}
-    header p{margin:0; opacity:.9}
-    .card{
-      background:var(--card); border-radius:var(--radius);
-      box-shadow:var(--shadow); padding:22px; margin:18px 0;
-    }
-    .card h2{margin:0 0 10px; font-size:22px}
-    .card p{margin:0 0 16px; color:var(--muted)}
-    .btns{display:flex; gap:14px; flex-wrap:wrap}
-    .btn{
-      display:inline-block; padding:12px 18px; border-radius:10px;
-      background:var(--accent); color:var(--accent-ink); text-decoration:none;
-      font-weight:700; letter-spacing:.3px; box-shadow:0 6px 16px rgba(22,99,255,.25);
-      transition:transform .06s ease;
-    }
-    .btn:active{transform:translateY(1px)}
-    footer{color:#dfeeff; text-align:center; padding:28px 0 8px; font-size:12px}
-    @media (max-width:480px){ header h1{font-size:28px} }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web3 Proof DAO | 天地愛プロジェクト</title>
+<style>
+body {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0 5%;
+}
+h1, h2 {
+  text-align: center;
+}
+h1 {
+  color: #1a1a1a;
+  font-size: 1.8em;
+  margin-top: 0.5em;
+}
+h2 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.2em;
+  color: #444;
+}
+section {
+  margin: 1.8em 0;
+}
+img.logo {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  border-radius: 50%;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 3em;
+  color: #777;
+}
+</style>
 </head>
+
 <body>
-  <div class="wrap">
-    <header>
-      <h1>Web3 Proof DAO｜天地一指プロジェクト</h1>
-      <p>信頼と証明の新しい時代へ。あなたの創作・活動・記録を「証明」する仕組みを、誰でも。</p>
-    </header>
+  <img src="https://raw.githubusercontent.com/asagohann777/web3-proof-dao/main/public/4290FD11-AED1-4912-A9A2-B1B9744349BF.jpeg" alt="Web3 Proof DAO Logo" class="logo">
+  <h1>🌏 Web3 Proof DAO（天地愛プロジェクト）🌏</h1>
 
-    <!-- DAO本体 -->
-    <section class="card">
-      <h2>DAO本体（設計・憲章・概要）</h2>
-      <p>理念・憲章・運営設計・技術ファイルなど、公式ドキュメントはこちらから。</p>
-      <div class="btns">
-        <!-- ★★★ ここが重要：/docs/ を付けない相対リンク ★★★ -->
-        <a class="btn" href="dao.html" target="_blank" rel="noopener">DAO本体を開く（新規タブ）</a>
-      </div>
-    </section>
+  <section>
+    <h2>🟦 1. 理念（Philosophy）</h2>
+    <p>
+    与え合う社会の創出。<br>
+    誰かの創造が、誰かの証明になる。<br>
+    権威や企業の審査を経ずとも、自らの創作や行動を確かに示せる世界をつくる。<br>
+    <strong>ブロックチェーンによる「証明の民主化」</strong>を通じ、信頼が中央から個へと還元される社会を目指す。
+    </p>
+  </section>
 
-    <!-- README -->
-    <section class="card">
-      <h2>README（開始ガイド／目次）</h2>
-      <p>プロジェクトの全体構造・導入手順を確認できます。</p>
-      <div class="btns">
-        <!-- ★★★ ここも相対リンク ★★★ -->
-        <a class="btn" href="README.html" target="_blank" rel="noopener">READMEを見る（新規タブ）</a>
-      </div>
-    </section>
+  <section>
+    <h2>🟩 2. 開発経緯と現在（Development History）</h2>
+    <ul>
+      <li><strong>2025年5月：</strong>「ブロックチェーン簡易登録アプリ」の構想を開始。続いて「ブロックチェーン証明システム」の構想を立案し、個人利用 → 法人利用 → 社会インフラ実装 → メタバース空間への証明技術応用という4段階フェーズ構想を確立。これにより構想全体が成立。</li>
+      <li><strong>同年5月末：</strong> ブロックチェーン簡易登録アプリのプロトタイプ（URLベース）を完成・限定リリース。</li>
+      <li><strong>同年6月：</strong> ブロックチェーン簡易登録アプリおよびブロックチェーン証明システムの実用新案登録申請を実施。現在、補正審査を経て審査中。</li>
+      <li><strong>現在：</strong> DAO内部構成・理念・トークン設計の最終調整を進めつつ、UI図作成構想の深化とオープンチャットによる検証メンバー募集を実施中。また、初期トークン発行（Base／Polygon予定）に向けて準備を進行中。</li>
+    </ul>
+  </section>
 
-    <!-- 参加・最新情報 -->
-    <section class="card">
-      <h2>参加・最新情報</h2>
-      <p>参加相談・質問はオープンチャットへ。最新情報は公式LINEからお届けします。</p>
-      <div class="btns">
-        <!-- 社長様ご指定のリンクを厳守 -->
-        <a class="btn" href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" rel="noopener">LINEオープンチャットに参加</a>
-        <a class="btn" href="https://lin.ee/A3f05Ys" target="_blank" rel="noopener">公式LINEを開く</a>
-      </div>
-    </section>
+  <section>
+    <h2>🟠 3. トークン設計（Tokenomics）</h2>
+    <ul>
+      <li>創設者：30％ → 将来的に10％まで段階的縮小（民主化のため）</li>
+      <li>開発チーム：20％ → 将来的に7.5％まで縮小予定</li>
+    </ul>
+    <p><strong>初期メンバー配布（順次参加順）</strong></p>
+    <ul>
+      <li>001〜100名：1,000トークン</li>
+      <li>101〜300名：500トークン</li>
+      <li>301〜500名：200トークン</li>
+      <li>501〜1,000名：100トークン</li>
+      <li>1,001名以降：DAO財政状況に応じて少額配布</li>
+    </ul>
+    <p><strong>紹介ボーナス</strong></p>
+    <ul>
+      <li>初期メンバー：紹介1人につき50トークン</li>
+      <li>以降のメンバー：紹介1人につき30トークン</li>
+    </ul>
+  </section>
 
-    <footer>
-      © 2025 Web3 Proof DAO | Tenchiisshi Project. All rights reserved.
-    </footer>
-  </div>
+  <section>
+    <h2>🟧 4. DAO構成（DAO Structure）</h2>
+    <ul>
+      <li>ガバナンス方式：Proof-based Decision</li>
+      <li>投票権限：トークン保有量に比例（1Token = 1Vote）</li>
+      <li>議題提出権：500Token以上の保持者</li>
+      <li>公開範囲：理念・議題・投票結果は全公開</li>
+      <li>非公開領域：開発中コード・実用新案関係資料</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🟨 5. コミュニティ構成（Community）</h2>
+    <ul>
+      <li>オープンチャット（一般参加）<br>
+      DAOの理念やトークン制度について議論・意見交換できる検証の場。<br>
+      <a href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank">➡︎ Web3 Proof DAO オープンチャット</a></li>
+      <li>公式LINE<br>
+      重要告知、正式メンバー登録、アップデート通知などを発信。<br>
+      <a href="https://lin.ee/A3f05Ys" target="_blank">➡︎ 公式LINEはこちら</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🟫 6. DAO正式参加の開放時期（Join Timing）</h2>
+    <p>DAOへの直接参加は、オープンチャット参加者が300名を超えた時点で正式開放を予定。それまでは検証期間として理念共有・改善議論を重ねる。</p>
+  </section>
+
+  <section>
+    <h2>🟥 7. クレジット（Credit）</h2>
+    <ul>
+      <li>主宰／Founder：天地愛プロジェクト（Ama Project）</li>
+      <li>代表名義：おじいちゃんコンビニ</li>
+      <li>GitHub / Base：asagohann777</li>
+      <li>協力：Wave3 Proof DAO 初期メンバー</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🎥 関連リンク（Media / Social）</h2>
+    <ul>
+      <li><strong>Web3 Proof DAO オープンチャット</strong><br>DAO理念やトークン制度の議論・意見交換を行う公式コミュニティ。<br>
+      <a href="https://line.me/ti/g2/RfUQjyzr4hpXnO9cvfn53pFujSEs47GO_lVTfw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank">➡︎ 参加はこちら</a></li>
+      <li><strong>公式LINE（登録・お知らせ用）</strong><br>正式メンバー登録・DAOの最新情報をお届け。<br>
+      <a href="https://lin.ee/A3f05Ys" target="_blank">➡︎ 公式LINE</a></li>
+      <li><strong>YouTubeチャンネル「朝ごはん」</strong><br>天地愛プロジェクトおよびWeb3 Proof DAOの公式プロモーション動画を掲載。<br>
+      <a href="https://youtube.com/channel/UClnGvnUiywqrbH1cW1IU6_Q?si=h8jOkw3ji92Oactd" target="_blank">➡︎ 見る</a></li>
+      <li><strong>おじいちゃんコンビニのスピリチュアルエッセイ</strong><br>心・魂・癒しをテーマにした天地愛プロジェクト発の思想的メッセージ。<br>
+      <a href="https://www.tiktok.com/@ojiichan_conbini" target="_blank">➡︎ TikTok</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Web3 Proof DAO / Ama Project
+  </footer>
 </body>
 </html>
