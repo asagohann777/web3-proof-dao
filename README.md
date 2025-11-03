@@ -95,3 +95,12 @@
 ---
 
 ## ⚙️ 技術ファイル一覧（Technical Files）
+
+---
+
+## 🔗 関連プロジェクト（Related Project）
+
+- 天地愛プロジェクト（Tenchiai Project）  
+  Proof of Democracy の理念を基盤とした、  
+  社会・文化・技術を統合する実践型DAO構想です。  
+  Web3 Proof DAO と連携し、証明・記録・共有の実装を進めています。
