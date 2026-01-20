@@ -104,3 +104,7 @@
   Proof of Democracy の理念を基盤とした、  
   社会・文化・技術を統合する実践型DAO構想です。  
   Web3 Proof DAO と連携し、証明・記録・共有の実装を進めています。
+- Origin Proof 定義書（公式）
+  正本一意型起点生成履歴確定構造（Origin Proof）の公式定義書。
+  起点生成・履歴連結・不可逆確定という証明構造を明文化した一次リファレンス。
+  https://github.com/asagohann777/origin-proof-definition
