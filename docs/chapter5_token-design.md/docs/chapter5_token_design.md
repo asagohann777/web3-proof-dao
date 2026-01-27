@@ -17,3 +17,4 @@ DAO運営の透明性・公共性を維持するため、
 
 この分配は「証明の民主化（Proof of Democracy）」という理念を実現するための初期設計であり、  
 全体の意思決定権が偏らぬよう、将来的なDAO投票制度により調整を行う可能性がある。
+![](docs/chapter5_token-design.md/docs/IMG_6171.PNG)
