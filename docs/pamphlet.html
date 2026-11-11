@@ -1,55 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>証明くん 新パンフレット</title>
   <style>
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      padding: 20px;
-      background: #111;
-      font-family: sans-serif;
-      text-align: center;
+      background: #f2f5f9;
+      color: #102c50;
+      font-family: system-ui, "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 clamp(6px, 1.4vw, 20px);
     }
     h1 {
-      color: white;
-      font-size: 26px;
-      margin: 10px 0 25px;
+      margin: 0;
+      padding: clamp(14px, 2vw, 26px) 0;
+      font-size: clamp(1.15rem, 2vw, 1.5rem);
+      text-align: center;
+      line-height: 1.4;
     }
-    img {
+    .pages {
+      display: grid;
+      gap: clamp(8px, 1.1vw, 14px);
+    }
+    .page {
+      position: relative;
+      margin: 0;
+      overflow: hidden;
+      aspect-ratio: var(--width) / var(--height);
+      box-shadow: 0 1px 4px rgb(21 52 85 / 14%);
+    }
+    /* Each frame uses the paper bounds in the original 1668 × 2388 image. */
+    .page img {
+      position: absolute;
       display: block;
-      width: 100%;
-      max-width: 1200px;
+      top: calc(-100% * var(--top) / var(--height));
+      left: calc(-100% * var(--left) / var(--width));
+      width: calc(100% * 1668 / var(--width));
       height: auto;
-      margin: 0 auto 24px;
     }
-    a {
+    footer {
+      padding: 20px 0 28px;
+      text-align: center;
+    }
+    footer a {
       display: inline-block;
-      margin: 10px 0 30px;
-      padding: 12px 22px;
-      background: white;
-      color: #1565c0;
-      text-decoration: none;
+      padding: 12px 20px;
       border-radius: 8px;
-      font-weight: bold;
+      background: #145799;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
     }
+    footer a:hover { background: #103f71; }
+    footer a:focus-visible { outline: 3px solid #102c50; outline-offset: 3px; }
   </style>
 </head>
 <body>
-
-<h1>証明くん 新パンフレット</h1>
-
-<img src="IMG_7959.jpeg" alt="証明くんパンフレット 1ページ">
-<img src="IMG_7960.jpeg" alt="証明くんパンフレット 2ページ">
-<img src="IMG_7961.jpeg" alt="証明くんパンフレット 3ページ">
-<img src="IMG_7962.jpeg" alt="証明くんパンフレット 4ページ">
-<img src="IMG_7963.jpeg" alt="証明くんパンフレット 5ページ">
-<img src="IMG_7964.jpeg" alt="証明くんパンフレット 6ページ">
-<img src="IMG_7965.jpeg" alt="証明くんパンフレット 7ページ">
-<img src="IMG_7966.jpeg" alt="証明くんパンフレット 8ページ">
-
-<a href="index.html">証明くんトップページへ戻る</a>
-
+  <main>
+    <h1>証明くん 新パンフレット</h1>
+    <div class="pages">
+      <figure class="page" style="--left: 1; --top: 740; --width: 1665; --height: 920">
+        <img src="IMG_7959.jpeg" width="1668" height="2388" fetchpriority="high" alt="1ページ　今日の記録を、未来の信頼へ。">
+      </figure>
+      <figure class="page" style="--left: 0; --top: 726; --width: 1668; --height: 937">
+        <img src="IMG_7960.jpeg" width="1668" height="2388" loading="lazy" alt="2ページ　記録が、信頼の履歴になる。">
+      </figure>
+      <figure class="page" style="--left: 0; --top: 727; --width: 1668; --height: 923">
+        <img src="IMG_7961.jpeg" width="1668" height="2388" loading="lazy" alt="3ページ　日々の記録が、未来の信頼になる。">
+      </figure>
+      <figure class="page" style="--left: 5; --top: 725; --width: 1663; --height: 937">
+        <img src="IMG_7962.jpeg" width="1668" height="2388" loading="lazy" alt="4ページ　企業の資産と履歴を、信頼につなぐ。">
+      </figure>
+      <figure class="page" style="--left: 6; --top: 725; --width: 1662; --height: 938">
+        <img src="IMG_7963.jpeg" width="1668" height="2388" loading="lazy" alt="5ページ　起点を定め、履歴をつなぎ、信頼を守る。">
+      </figure>
+      <figure class="page" style="--left: 0; --top: 726; --width: 1668; --height: 937">
+        <img src="IMG_7964.jpeg" width="1668" height="2388" loading="lazy" alt="6ページ　さらに多くの分野へ。">
+      </figure>
+      <figure class="page" style="--left: 9; --top: 725; --width: 1659; --height: 938">
+        <img src="IMG_7965.jpeg" width="1668" height="2388" loading="lazy" alt="7ページ　誰でも使える記録が、未来へ広がる。">
+      </figure>
+      <figure class="page" style="--left: 4; --top: 725; --width: 1664; --height: 933">
+        <img src="IMG_7966.jpeg" width="1668" height="2388" loading="lazy" alt="8ページ　一緒に、信頼がつながる未来へ。">
+      </figure>
+    </div>
+    <footer><a href="index.html">証明くんトップページへ戻る</a></footer>
+  </main>
 </body>
 </html>
